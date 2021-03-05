@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  web:
+    build: ./services/web
+    command: gunicorn --bind 0.0.0.0:5004 manage:app
+    volumes:
+      - ./services/web/:/usr/src/app1/
+    ports:
+      - 5004:5004
+    env_file:
+      - ./.env.dev
+

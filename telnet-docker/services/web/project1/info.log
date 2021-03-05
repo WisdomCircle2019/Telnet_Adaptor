@@ -1,0 +1,13 @@
+INFO:werkzeug: * Running on http://0.0.0.0:13000/ (Press CTRL+C to quit)
+INFO:root:Id : 782 - flow name : ssh
+INFO:root:Id : 782 - Executing Step1
+INFO:root:Id : 782 - Action - Connect
+INFO:root:Id : 782 - Executing Step2
+INFO:root:Id : 782 - Action - Run a Command
+INFO:root:Id : 782 - command - uptime
+INFO:root:Id : 782 - Executing Step3
+INFO:root:Id : 782 - Action - Parse the Output
+INFO:root:Id : 782 - Executing Step4
+INFO:root:Id : 782 - Action - Add Text Message
+INFO:root:Id : 782 - Text message : {time}
+INFO:werkzeug:49.37.222.135 - - [03/Mar/2021 09:32:33] "[37mGET /telnet?reqNo=782&flowname=ssh&hostname=3.129.207.146&username=adaptor&password=Adaptor1234$wc&conn_type=telnet HTTP/1.1[0m" 200 -
